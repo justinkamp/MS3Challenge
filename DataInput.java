@@ -13,7 +13,7 @@ public class DataInput {
     public static void Data() throws IOException {
         //Retrieving the provided data and feeding that into a list for iteration
         String[] userProfile = new String[10];
-        List<String> userData = Files.readAllLines(Paths.get(userprofile + "\\Documents\\MS3Interview Coding Data.csv"));
+        List<String> userData = Files.readAllLines(Paths.get(userprofile + "\\Documents\\ms3Interview.csv"));
 
         //Iterating through the data and setting each row to an array to help determine whether the data in either valid or invalid
         for (String iterate: userData) {
